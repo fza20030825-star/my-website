@@ -1,0 +1,32 @@
+---
+title: "关于我"
+description: "关于冯子昂 - 教育背景、科研项目、技能清单、荣誉奖励"
+keywords: "关于, 教育背景, 科研项目, 技能, 荣誉"
+format: html
+---
+
+<div class="site-shell">
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-mark">F</div>
+        <div>
+          <div>冯子昂</div>
+          <small style="color: var(--muted); font-weight: 600;">Academic Profile</small>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">主页</a>
+        <a class="active" href="about.html">关于我</a>
+        <a href="data/20260309.pdf">论文成果</a>
+        <a href="https://github.com/fza20030825-star">GitHub</a>
+      </nav>
+    </div>
+  </div>
+
+  <section class="hero about-hero">
+    <div class="eyebrow"><i class="bi bi-stars"></i> 教育背景 · 科研项目 · 技能与成果</div>
+    <h1>关于我</h1>
+    <p>我关注数字土壤制图、地理空间分析与环境信息表达，希望把规范的数据组织、可靠的建模方法和清晰的科研展示结合起来，形成兼顾学术性与可视化表现的研究成果。</p>
+  </section>
+</div>
