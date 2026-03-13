@@ -566,3 +566,32 @@ main.content {
     border: 1px solid #d9e5f1;
   }
 }
+
+
+#quarto-header,
+.navbar,
+.navbar-container,
+#quarto-margin-sidebar,
+#quarto-sidebar,
+#TOC,
+.sidebar {
+  display: none !important;
+}
+
+main.content > *:first-child {
+  margin-top: 0;
+}
+
+.feature-list, .simple-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.file-card a span i,
+.eyebrow i,
+.btn-main i,
+.btn-ghost i,
+.contact-item i {
+  margin-right: 6px;
+}

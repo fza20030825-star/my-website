@@ -3,16 +3,11 @@ project:
   output-dir: _site
 
 website:
-  title: "My Website"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
+  title: "Feng Zi'ang | Academic Profile"
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
+    page-layout: full

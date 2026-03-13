@@ -5,28 +5,133 @@ keywords: "关于, 教育背景, 科研项目, 技能, 荣誉"
 format: html
 ---
 
-<div class="site-shell">
-  <div class="topbar">
-    <div class="topbar-inner">
-      <div class="brand">
-        <div class="brand-mark">F</div>
-        <div>
-          <div>冯子昂</div>
-          <small style="color: var(--muted); font-weight: 600;">Academic Profile</small>
-        </div>
-      </div>
-      <nav class="nav-links">
-        <a href="index.html">主页</a>
-        <a class="active" href="about.html">关于我</a>
-        <a href="data/20260309.pdf">论文成果</a>
-        <a href="https://github.com/fza20030825-star">GitHub</a>
-      </nav>
-    </div>
-  </div>
+::: {.site-shell}
 
-  <section class="hero about-hero">
-    <div class="eyebrow"><i class="bi bi-stars"></i> 教育背景 · 科研项目 · 技能与成果</div>
-    <h1>关于我</h1>
-    <p>我关注数字土壤制图、地理空间分析与环境信息表达，希望把规范的数据组织、可靠的建模方法和清晰的科研展示结合起来，形成兼顾学术性与可视化表现的研究成果。</p>
-  </section>
+::: {.topbar}
+::: {.topbar-inner}
+::: {.brand}
+::: {.brand-mark}
+F
+:::
+
+<div>
+<div>冯子昂</div>
+<small style="color: var(--muted); font-weight: 600;">Academic Profile</small>
 </div>
+:::
+
+::: {.nav-links}
+<a href="index.html">主页</a>
+<a class="active" href="about.html">关于我</a>
+<a href="data/20260309.pdf" target="_blank" rel="noopener noreferrer">论文成果</a>
+<a href="https://github.com/fza20030825-star" target="_blank" rel="noopener noreferrer">GitHub</a>
+:::
+:::
+:::
+
+::: {.hero .about-hero}
+::: {.eyebrow}
+<i class="bi bi-stars"></i> 教育背景 · 科研项目 · 技能与成果
+:::
+
+# 关于我
+
+我关注数字土壤制图、地理空间分析与环境信息表达，希望把规范的数据组织、可靠的建模方法和清晰的科研展示结合起来，形成兼顾学术性与可视化表现的研究成果。
+:::
+
+::: {.section-block}
+::: {.about-summary}
+::: {.glass-card}
+### {.card-title} 教育背景
+
+::: {.timeline}
+::: {.timeline-item}
+<span class="time">2025–至今</span>
+### 华中农业大学 · 资源与环境学院
+硕士研究生，研究方向为数字土壤制图、三维土壤属性建模与空间分析。
+:::
+
+::: {.timeline-item}
+<span class="time">本科阶段</span>
+### GIS / 遥感 / 土壤信息相关学习与实践
+系统积累地理空间分析、环境建模、制图表达与科研数据处理经验。
+:::
+:::
+:::
+
+::: {.glass-card}
+### {.card-title} 研究兴趣
+
+::: {.simple-list}
+- 三维土壤制图与土壤剖面建模
+- 遥感与多源环境变量驱动的数字土壤制图
+- 土壤数据库建设、样点质控与成果可视化
+- GIS、机器学习与空间统计方法在环境问题中的应用
+:::
+:::
+:::
+:::
+
+::: {.section-block}
+::: {.grid-2}
+::: {.list-card}
+### {.card-title} 参与项目与实践
+
+::: {.simple-list}
+- 参与国家重点研发计划相关任务与数据处理工作
+- 参与土壤样点整理、数据库建设与成果制图流程
+- 开展三维土壤属性建模、空间预测与结果表达实践
+- 关注科研流程规范化、可重复分析与成果展示质量
+:::
+:::
+
+::: {.list-card}
+### {.card-title} 技能清单
+
+::: {.tags}
+[Python]{.tag}
+[MATLAB]{.tag}
+[R]{.tag}
+[ArcGIS Pro]{.tag}
+[QGIS]{.tag}
+[Google Earth Engine]{.tag}
+[LaTeX / Markdown]{.tag}
+[Git / GitHub]{.tag}
+:::
+:::
+:::
+:::
+
+::: {.section-block}
+::: {.grid-2}
+::: {.file-card}
+### {.card-title} 论文成果
+
+<a href="data/20260309.pdf" target="_blank" rel="noopener noreferrer">
+  <span><i class="bi bi-file-earmark-pdf"></i> 查看论文或成果 PDF</span>
+  <span>打开</span>
+</a>
+:::
+
+::: {.contact-card}
+### {.card-title} 联系方式
+
+::: {.contact-list}
+::: {.contact-item}
+<i class="bi bi-envelope"></i>
+<span>2021309210605@webmail.hzau.edu.cn</span>
+:::
+::: {.contact-item}
+<i class="bi bi-github"></i>
+<a href="https://github.com/fza20030825-star" target="_blank" rel="noopener noreferrer">github.com/fza20030825-star</a>
+:::
+:::
+:::
+:::
+:::
+
+::: {.footer-note}
+© 2026 冯子昂 · Personal Academic Website
+:::
+
+:::
