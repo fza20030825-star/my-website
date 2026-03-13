@@ -548,7 +548,7 @@ main.content {
 }
 
 @media (max-width: 768px) {
-  main.content { width: min(1180px, calc(100% - 20px)); }
+  main.content { width: min(100% - 20px, 1180px); }
   .topbar-inner { border-radius: 22px; padding: 14px; }
   .topbar { top: 8px; }
   .nav-links { gap: 6px; }
@@ -567,31 +567,7 @@ main.content {
   }
 }
 
-
-#quarto-header,
-.navbar,
-.navbar-container,
-#quarto-margin-sidebar,
-#quarto-sidebar,
-#TOC,
-.sidebar {
-  display: none !important;
-}
-
-main.content > *:first-child {
-  margin-top: 0;
-}
-
-.feature-list, .simple-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.file-card a span i,
-.eyebrow i,
-.btn-main i,
-.btn-ghost i,
-.contact-item i {
-  margin-right: 6px;
-}
+/* Quarto compatibility */
+#title-block-header, .quarto-title-banner, .navbar, .nav-page, .page-navigation, .sidebar { display: none !important; }
+main.content { width: min(1180px, calc(100% - 20px)); max-width: 1180px; margin: 0 auto; }
+body:not(.floating) .content, body .content { padding-top: 0; }

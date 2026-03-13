@@ -1,18 +1,18 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - data
 
 website:
   title: ""
-  navbar:
-    left:
-      - href: index.qmd
-        text: 主页
-      - href: about.qmd
-        text: 关于我
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
+    page-layout: full
+    title-block: false
+    include-in-header:
+      - header.html
