@@ -3,11 +3,10 @@ project:
   output-dir: _site
 
 website:
-  title: "Feng Zi'ang | Academic Profile"
+  title: false
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
-    page-layout: full

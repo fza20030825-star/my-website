@@ -1,151 +1,90 @@
 ---
 title: "主页"
-description: "冯子昂的个人主页 - 华中农业大学资源与环境学院资源环境信息工程 2025 级硕士"
+description: "冯子昂的个人主页 - 华中农业大学资源与环境学院资源环境信息工程25级学术型硕士"
 format: html
 ---
 
-::: {.site-shell}
+<div class="site-shell">
+  <div class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <div class="brand-mark">F</div>
+        <div>
+          <div>冯子昂</div>
+          <small style="color: var(--muted); font-weight: 600;">Academic Profile</small>
+        </div>
+      </div>
+      <nav class="nav-links">
+        <a class="active" href="index.html">主页</a>
+        <a href="about.html">关于我</a>
+        <a href="data/20260309.pdf">论文成果</a>
+        <a href="https://github.com/fza20030825-star">GitHub</a>
+      </nav>
+    </div>
+  </div>
 
-::: {.topbar}
-::: {.topbar-inner}
-::: {.brand}
-::: {.brand-mark}
-F
-:::
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow"><i class="bi bi-mortarboard-fill"></i> 华中农业大学 · 资源环境信息工程</div>
+        <h1>面向数字土壤制图的<br>青年研究者主页</h1>
+        <p>我主要聚焦三维土壤制图、土壤空间建模与遥感支持下的数字土壤制图研究，致力于将地统计学、机器学习与多源环境变量结合，用更高分辨率、更强解释性的方式表达土壤空间异质性。</p>
+        <div class="hero-actions">
+          <a class="btn-main" href="about.html"><i class="bi bi-person-lines-fill"></i> 查看完整履历</a>
+          <a class="btn-ghost" href="mailto:2021309210605@webmail.hzau.edu.cn"><i class="bi bi-envelope"></i> 联系我</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="profile-frame">
+          <img src="data/profile.jpg" alt="冯子昂个人照片">
+        </div>
+        <div class="profile-facts">
+          <div class="fact-pill"><span>当前阶段</span><strong>2025级硕士</strong></div>
+          <div class="fact-pill"><span>研究领域</span><strong>三维土壤制图</strong></div>
+          <div class="fact-pill"><span>学院</span><strong>资源与环境学院</strong></div>
+          <div class="fact-pill"><span>方向关键词</span><strong>DSM · GIS · RS</strong></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<div>
-<div>冯子昂</div>
-<small style="color: var(--muted); font-weight: 600;">Academic Profile</small>
+  <section class="metric-grid section-block">
+    <div class="metric-card"><div class="num">3+</div><div class="label">核心研究模块</div></div>
+    <div class="metric-card"><div class="num">1</div><div class="label">国家重点研发计划参与</div></div>
+    <div class="metric-card"><div class="num">4+</div><div class="label">竞赛 / 项目荣誉</div></div>
+    <div class="metric-card"><div class="num">5+</div><div class="label">常用研究工具与语言</div></div>
+  </section>
+
+  <section class="section-block">
+    <div class="section-title">
+      <h2>研究概览</h2>
+      <p>围绕土壤空间表达、剖面建模与数据可视化开展研究</p>
+    </div>
+    <div class="grid-3">
+      <article class="info-card">
+        <h3 class="card-title">三维土壤制图</h3>
+        <ul class="feature-list">
+          <li>面向表层—深层连续表达的三维土壤属性建模</li>
+          <li>结合剖面信息与空间协变量表达垂向变化结构</li>
+          <li>强调制图结果的精度、连续性与解释性</li>
+        </ul>
+      </article>
+      <article class="info-card">
+        <h3 class="card-title">数字土壤制图</h3>
+        <ul class="feature-list">
+          <li>融合遥感、地形、环境因子与机器学习算法</li>
+          <li>面向区域尺度土壤属性高分辨率预测</li>
+          <li>支持多源数据驱动下的空间推断与更新</li>
+        </ul>
+      </article>
+      <article class="info-card">
+        <h3 class="card-title">数据库与可视化</h3>
+        <ul class="feature-list">
+          <li>参与土壤样点数据整理、质控与数据库建设</li>
+          <li>重视数据结构规范化和成果展示美观性</li>
+          <li>服务后续制图、分析与成果表达</li>
+        </ul>
+      </article>
+    </div>
+  </section>
 </div>
-:::
-
-::: {.nav-links}
-<a class="active" href="index.html">主页</a>
-<a href="about.html">关于我</a>
-<a href="data/20260309.pdf" target="_blank" rel="noopener noreferrer">论文成果</a>
-<a href="https://github.com/fza20030825-star" target="_blank" rel="noopener noreferrer">GitHub</a>
-:::
-:::
-:::
-
-::: {.hero}
-::: {.hero-grid}
-
-::: {}
-::: {.eyebrow}
-<i class="bi bi-mortarboard-fill"></i> 华中农业大学 · 资源环境信息工程
-:::
-
-# 面向数字土壤制图的<br>青年研究者主页
-
-我主要聚焦三维土壤制图、土壤空间建模与遥感支持下的数字土壤制图研究，致力于将地统计学、机器学习与多源环境变量结合，用更高分辨率、更强解释性的方式表达土壤空间异质性。
-
-::: {.hero-actions}
-<a class="btn-main" href="about.html"><i class="bi bi-person-lines-fill"></i> 查看完整履历</a>
-<a class="btn-ghost" href="mailto:2021309210605@webmail.hzau.edu.cn"><i class="bi bi-envelope"></i> 联系我</a>
-:::
-:::
-
-::: {.hero-card}
-::: {.profile-frame}
-![](data/profile.jpg){alt="冯子昂个人照片"}
-:::
-
-::: {.profile-facts}
-::: {.fact-pill}
-<span>当前阶段</span><strong>2025级硕士</strong>
-:::
-::: {.fact-pill}
-<span>研究领域</span><strong>三维土壤制图</strong>
-:::
-::: {.fact-pill}
-<span>学院</span><strong>资源与环境学院</strong>
-:::
-::: {.fact-pill}
-<span>方向关键词</span><strong>DSM · GIS · RS</strong>
-:::
-:::
-:::
-
-:::
-:::
-
-::: {.metric-grid .section-block}
-::: {.metric-card}
-<div class="num">3+</div><div class="label">核心研究模块</div>
-:::
-::: {.metric-card}
-<div class="num">1</div><div class="label">国家重点研发计划参与</div>
-:::
-::: {.metric-card}
-<div class="num">4+</div><div class="label">竞赛 / 项目荣誉</div>
-:::
-::: {.metric-card}
-<div class="num">5+</div><div class="label">常用研究工具与语言</div>
-:::
-:::
-
-::: {.section-block}
-::: {.section-title}
-## 研究概览
-
-围绕土壤空间表达、剖面建模与数据可视化开展研究
-:::
-
-::: {.grid-3}
-::: {.info-card}
-### {.card-title} 三维土壤制图
-
-::: {.feature-list}
-- 面向表层—深层连续表达的三维土壤属性建模
-- 结合剖面信息与空间协变量表达垂向变化结构
-- 强调制图结果的精度、连续性与解释性
-:::
-:::
-
-::: {.info-card}
-### {.card-title} 数字土壤制图
-
-::: {.feature-list}
-- 融合遥感、地形、环境因子与机器学习算法
-- 面向区域尺度土壤属性高分辨率预测
-- 支持多源数据驱动下的空间推断与更新
-:::
-:::
-
-::: {.info-card}
-### {.card-title} 数据库与可视化
-
-::: {.feature-list}
-- 参与土壤样点数据整理、质控与数据库建设
-- 重视数据结构规范化和成果展示美观性
-- 服务后续制图、分析与成果表达
-:::
-:::
-:::
-:::
-
-::: {.section-block}
-::: {.section-title}
-## 研究工具
-
-建模、空间分析与成果表达的常用技术栈
-:::
-
-::: {.tags}
-[Python]{.tag}
-[MATLAB]{.tag}
-[R]{.tag}
-[ArcGIS]{.tag}
-[QGIS]{.tag}
-[Google Earth Engine]{.tag}
-[RasterIO]{.tag}
-[Scikit-learn]{.tag}
-:::
-:::
-
-::: {.footer-note}
-© 2026 冯子昂 · Personal Academic Website
-:::
-
-:::

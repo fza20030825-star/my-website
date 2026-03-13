@@ -1,8 +1,5 @@
 _site/
 .quarto/
-*_files/
+*.Rproj
 .DS_Store
 Thumbs.db
-
-/.quarto/
-**/*.quarto_ipynb
