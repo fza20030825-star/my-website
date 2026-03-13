@@ -3,7 +3,13 @@ project:
   output-dir: _site
 
 website:
-  title: false
+  title: ""
+  navbar:
+    left:
+      - href: index.qmd
+        text: 主页
+      - href: about.qmd
+        text: 关于我
 
 format:
   html:
