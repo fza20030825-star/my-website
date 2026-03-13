@@ -566,3 +566,8 @@ main.content {
     border: 1px solid #d9e5f1;
   }
 }
+
+/* Quarto compatibility */
+#title-block-header, .quarto-title-banner, .navbar, .nav-page, .page-navigation, .sidebar { display: none !important; }
+main.content { width: min(1180px, calc(100% - 20px)); max-width: 1180px; margin: 0 auto; }
+body:not(.floating) .content, body .content { padding-top: 0; }
